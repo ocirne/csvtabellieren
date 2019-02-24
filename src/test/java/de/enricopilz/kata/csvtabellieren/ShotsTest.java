@@ -2,6 +2,7 @@ package de.enricopilz.kata.csvtabellieren;
 
 import de.enricopilz.kata.csvtabellieren.shot1.Shot1;
 import de.enricopilz.kata.csvtabellieren.shot2.Shot2;
+import de.enricopilz.kata.csvtabellieren.shot4.Shot4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -19,7 +20,7 @@ public class ShotsTest {
     @Parameters
     public static Collection<Object[]> data() {
         return List.of(new Object[][] {
-                { new Shot1() }, { new Shot2() }
+                { new Shot1() }, { new Shot2() }, { new Shot4() }
         });
     }
 
